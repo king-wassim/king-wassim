@@ -1,5 +1,5 @@
 # 💫 About Me:
-Freelance developer<br>Passion in C & Python programming<br>Machine learning enthusiast
+Industrial IT and Automation Pre-Engineering Student<br>Passion in C & Python programming<br>Machine learning enthusiast
 
 
 ## 🌐 Socials:
