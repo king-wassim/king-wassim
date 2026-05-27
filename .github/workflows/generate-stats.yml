@@ -34,6 +34,7 @@ jobs:
         env:
           USERNAME: king-wassim
           THEME: dark
+          GH_TOKEN: ${{ github.token }}
         run: |
           python scripts/generate_stats.py
 
