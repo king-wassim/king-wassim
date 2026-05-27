@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from io import BytesIO
 
 import requests
@@ -92,7 +92,7 @@ def new_card(width, height, c):
 
 
 def draw_footer(draw, c, width, height):
-    stamp = datetime.utcnow().strftime("Updated %Y-%m-%d %H:%M UTC")
+    stamp = datetime.now(timezone.utc).strftime("Updated %Y-%m-%d %H:%M UTC")
     draw.text((36, height - 44), stamp, fill=c["muted"], font=load_font(16))
     draw.text((width - 250, height - 44), "source: GitHub API", fill=c["muted"], font=load_font(16))
 
