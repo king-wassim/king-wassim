@@ -37,7 +37,7 @@
 
 ---
 
-## 📊 GitHub Stats (generated in this repo)
+## 📊 GitHub Stats :
 
 <div align="center">
   <img src="assets/stats/stats.png" alt="GitHub Stats" width="49%" />
